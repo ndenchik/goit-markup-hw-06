@@ -83,7 +83,10 @@
     </symbol>
     <symbol id="burger-menu" viewBox="0 0 32 22" fill="none">     
         <path d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="#2E2F42" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-    </symbol>  
+    </symbol> 
+    <symbol id="close-menu" viewBox="0 0 8 8" fill="none">      
+        <path d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z" fill="#2E2F42"/>
+    </symbol>    
       
   </defs>
 </svg>

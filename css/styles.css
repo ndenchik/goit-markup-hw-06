@@ -128,7 +128,7 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);  
-    /*margin-right: 76px;*/  
+    /*margin-right: 76px;*/
 }
 
 .logo-header {
@@ -737,7 +737,7 @@ address{
 
 
 /* Footer */
-/*
+
 footer {
     background-color: var(--nav-header-color);
     padding-top: 100px;
@@ -1126,8 +1126,10 @@ input:checked+label>span {
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: 32px;
-    background-color: #3f51b5;
+    padding: 40px;
+    padding-top: 80px;
+    background: var(--backgroud-color);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
     z-index: 999;
   
     transform: translateX(100%);
@@ -1140,20 +1142,26 @@ input:checked+label>span {
   
   .menu-container .menu-toggle {
     position: absolute;
-    top: 16px;
-    right: 16px;
-    color: #fff;
+    top: 24px;
+    right: 24px;    
   }
-  
-  .mobile-menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
+
+  .mobile-menu-item:not(:last-child){
+    margin-bottom: 40px;
   }
-  
+ 
   .mobile-menu .link {
     display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
+    color: var(--nav-header-color);     
+    font-size: 36px;
+    
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02;
+    text-transform: capitalize;
+  }
+
+  
+  .mobile-menu-link:active{
+    color: var(--button-hover-background);
   }
