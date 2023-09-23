@@ -24,8 +24,8 @@
                 <a href="./index.html" class="link logo">Web<span class="logo-header">Studio</span></a>
                 <ul class="nav-list list">
                     <li><a class="link nav-link current" href="./index.html">Studio</a></li>
-                    <li><a class="link nav-link" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="link nav-link" href="">Contacts</a></li>                   
+                    <li><a class="link nav-link" href="#portfolio">Portfolio</a></li>
+                    <li><a class="link nav-link" href="#footer">Contacts</a></li>                   
                 </ul>
             </nav>
             <address class="header-address">
@@ -35,11 +35,11 @@
                 </ul>
             </address>
             <button
-                class="menu-toggle js-open-menu"
+                class="burger-menu-toggle js-open-menu"
                 aria-expanded="false"
                 aria-controls="mobile-menu"
           >
-            <svg class="mobile-menu-item" width="32"         height="23">
+            <svg class="burger-mobile-menu-item" width="24" height="24">
                 <use href="./images/icons.svg#burger-menu"></use>
             </svg>          
           </button>
@@ -47,15 +47,15 @@
         </div>
     </header>   
     <main>
-        <section class="hero-container">
+        <section class="hero">
             <!--Hero-->
-            <div class="hero-flex container">
+            <div class="hero-container container">
                 <h1 class="hero-title hero-item">Effective Solutions
                     for Your Business</h1>
                 <button class="hero-button hero-item" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
-        <section class="feature-container">
+        <section class="feature section">
             <!--Features-->
             <div class="container">
                 <h2 class="visually-hidden">Features</h2>
@@ -107,19 +107,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="section-doing-container">
-            <!--What are we doing-->
-            <div class="container">
-                <h2 class="section-title">What are we doing</h2>
-                <ul class="doing-flex list">
-                    <li class="doing-item"><img src="./images/img1.jpg" alt="computer" width="360" height="300"></li>
-                    <li class="doing-item"><img src="./images/img2.jpg" alt="phone-apps" width="360" height="300"></li>
-                    <li class="doing-item"><img src="./images/img3.jpg" alt="computer-phone" width="360" height="300"></li>
-                </ul>
-            </div>
-        </section>
-        <section class="section-team">
+        </section>       
+        <section class="section-team section">
             <!--Our Team-->
             <div class="team-container container">
                 <h2 class="section-title">Our Team</h2>
@@ -283,57 +272,109 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        <section class="section-customers">
-            <!--Customers-->
-            <div class="customers-container container">
-                <h2 class="section-title">Customers</h2>
-                <ul class="customers-flex list">
-                    <li class="customers-item">
-                        <a class="customers-link link" href="">
-                            <svg class="customers-icon" width="104" height="56">
-                            <use href="./images/icons.svg#icon-yaco"></use>
-                            </svg>
+        </section>                   
+        <section class="portfolio section">
+            <div class="btn-container container">
+                <h2 class="section-title">Our Portfolio</h2>                        
+                <ul class="list card-flex">
+                    <li class="card">
+                        <a href="" class="card-nav link">
+                            <div class="overlay-box">
+                                <img src="./images/banking.jpg" alt="banking" width="360">
+                                <p class="overlay">
+                                    14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                                        Ecommerce App · Cloud Storage App
+                                </p>                                
+                            </div>                                
+                            <div class="card-name">
+                                <h2 class="project-title">Banking App Interface Concept</h2>
+                                <p class="project-text">App</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a class="customers-link link" href="">
-                            <svg class="customers-icon" width="104" height="56">
-                            <use href="./images/icons.svg#icon-company"></use>
-                            </svg>
+                    <li class="card">
+                        <a href="" class="card-nav link">
+                            <div class="overlay-box">
+                                <img class="card-list" src="./images/cashless.jpg" alt="cashless payment" width="360">                                
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
+                                    </p>
+                                
+                            </div>
+                            <div class="card-name">
+                                <h2 class="project-title">Cashless Payment</h2>
+                                <p class="project-text">Marketing</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a class="customers-link link" href="">
-                            <svg class="customers-icon" width="104" height="56">
-                            <use href="./images/icons.svg#icon-cercle"></use>
-                            </svg>
+                    <li class="card">
+                        <a href="" class="card-nav link">
+                            <div class="overlay-box">
+                                <img src="./images/meditation.jpg" alt="meditation app" width="360">
+                                
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                                        Ecommerce App · Cloud Storage App
+                                    </p>
+                                
+                            </div>
+                            <div class="card-name">
+                                <h2 class="project-title">Meditation App</h2>
+                                <p class="project-text">App</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a class="customers-link link" href="">
-                            <svg class="customers-icon" width="104" height="56">
-                            <use href="./images/icons.svg#icon-foster"></use>
-                            </svg>
+                    <li class="card">
+                        <a href="" class="card-nav link">
+                            <div class="overlay-box">
+                                <img src="./images/taxi.jpg" alt="taxi" width="360">
+                                
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                                        Ecommerce App · Cloud Storage App
+                                    </p>
+                                
+                            </div>
+                            <div class="card-name">
+                                <h2 class="project-title">Taxi Service</h2>
+                                <p class="project-text">Marketing</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a class="customers-link link" href="">
-                            <svg class="customers-icon" width="104" height="56">
-                            <use href="./images/icons.svg#icon-brand"></use>
-                            </svg>
+                    <li class="card">
+                        <a href="" class="card-nav link">
+                            <div class="overlay-box">
+                                <img src="./images/screen.jpg" alt="Screen Illustrations" width="360">
+                                
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                                        Ecommerce App · Cloud Storage App
+                                    </p>                                
+                            </div>
+                            <div class="card-name"> 
+                                <h2 class="project-title">Screen Illustrations</h2>
+                                <p class="project-text">Design</p>
+                            </div>
                         </a>
                     </li>
-                    <li class="customers-item">
-                        <a class="customers-link link" href="">
-                            <svg class="customers-icon" width="104" height="56">
-                            <use href="./images/icons.svg#icon-tag"></use>
-                            </svg>
+                    <li class="card">
+                        <a href="" class="card-nav link">
+                            <div class="overlay-box">
+                                <img src="./images/online_courses.jpg" alt="Online Courses" width="360">
+                               
+                                    <p class="overlay">
+                                        14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit
+                                        Ecommerce App · Cloud Storage App
+                                    </p>                               
+                            </div>
+                            <div class="card-name">
+                                <h2 class="project-title">Online Courses</h2>
+                                <p class="project-text">Marketing</p>
+                            </div>
                         </a>
-                    </li>
-                </ul>
-
+                    </li>                   
             </div>
+
         </section>
     </main>
     <footer class="footer">
@@ -433,15 +474,13 @@
                 </div>
                 <div class="modal-agreement-item">
                     <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
-
                     <label class="modal-form-description" for="user-privacy">
                         <span class="agreement-checkbox">
                             <svg class="agreement-checkbox-icon" width="10" height="8">
                             <use href="./images/icons.svg#check"></use>
                             </svg>
                         </span>                   
-                        I accept the terms and conditions of the  <a class="modal-form-link" href="" target="blank" rel="noopener noreferrer">
-                              Privacy Policy                            
+                        I accept the terms and conditions of the <a class="modal-form-link" href="" target="blank" rel="noopener noreferrer"> Privacy Policy                            
                         </a>                                             
                     </label>                
                     
@@ -461,7 +500,7 @@
 
         <ul class="mobile-menu list">
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link link" href="" class="link">Studio</a></li>
+            <a class="mobile-menu-link link " href="./index.html" class="link">Studio</a></li>
           <li class="mobile-menu-item">
             <a class="mobile-menu-link link" href="" class="link">Portfolio</a></li>
           <li class="mobile-menu-item">
